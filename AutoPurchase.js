@@ -15,7 +15,7 @@ RBLXApi.RunScript = function(){
     
   }
   RBLXApi.loopCount += 1;
-  if (RBLXApi.MaxLoop >= loopCount){
+  if (RBLXApi.MaxLoop >= loopCount && RBLXApi.robuxCount M= RBLXApi.minRobux){
     RBLXApi.launchScript(RBLXApi.userId); // Recounts robux and will relaunch this script, since its ASYNC, you can't just do a get request and save it to a variable, thus you call this function again
   }
 }
